@@ -162,15 +162,40 @@ var empty = null; //null
 
 //----------------------------------------------------------------------
 
-
 // undefined vs undeclared variable or not define
 
 // let b; // undefined
 
 // let a = "abc";
 
+//Error Types
+
 // console.log( a.filter() ); // Type Error 
 // console.log( c ); //Reference Error - not defined
 // // console.( b ) //Syntax Error
 
 //----------------------------------------------------------------------
+
+
+//Template String or Template Literal
+
+let course = "Java Full Stack"
+let course1 = `JavaScript 
+  Full 
+  Stack`
+
+let ownInterestWithStack = "Cyber Security" +
+" " + 
+course; // Normal Concatination - It takes Single Line
+
+let ownInterestWithStack1 = `Cyber 
+Security 
+${course} ` + ownInterestWithStack   // Template Strinmg - To add multi lines
+
+//String Interpolation - To embbed variable into Template string (eg..${course1})
+
+// console.log( course );
+// console.log( course1 );
+
+console.log( ownInterestWithStack );
+console.log( ownInterestWithStack1 );
