@@ -12,7 +12,7 @@
 // console.log( name );
 
 
-//Primitive Datatypes - single Value
+//Primitive Datatypes - single Value - Predefined DataTypes
 
 // var str = 'javascript' //String
 // var str = "javascript"
@@ -23,9 +23,14 @@
 // var condition = true // Boolean
 // var condition = false 
 
-// var defaultVal = undefined; //undefined
+/*
+Trivial Datatypes
 
-// var empty = null; //null
+var defaultVal = undefined; //undefined
+
+var empty = null; //null
+
+*/
 
 //Statement - keyword name = value
 
@@ -40,7 +45,7 @@
 
 // console.log( a );  
 
-//Non - Primitve Datatypes - multiple values
+//Non - Primitve Datatypes - multiple values - Reference - Composite - Complex - User Defined
 
 //Object -- key value pair
 
@@ -73,13 +78,99 @@
 
 //---------------Concatination
 
-var fName = "Kesavan"+{id:1}  //Kesavan10 - string ---> Implicit Conversion or Type Coercion
-var fName = "Kesavan"+[1,2]
-var fName = "Kesavan"
-var lName = "Murugesan"
+// var fName = "Kesavan......"+{id:1}  //Kesavan10 - string ---> Implicit Conversion or Type Coercion
+// var fName = "Kesavan......>>>>>>>>>>>>>"+[1,2]
+// var fName = "Kesavan"
+// var lName = "Murugesan"
 
-var fullName = fName+' '+lName
+// var fullName = fName+' '+lName
+// var fullName = "Kesavan Murugesan"
 
-console.log( typeof fName );
-console.log( fName );
-console.log( fullName );
+// console.log( typeof fName );
+// console.log( fName );
+// console.log( fullName );
+
+// var name = 10
+// var name1 = 20;
+
+// console.log( name + name1 );
+
+//Type Conversion
+
+//Implicit Type Conversion - Type Coercion - (automatically type will change)
+
+//String
+
+//string + anything = string
+//anything + string = string
+// console.log(  "10" + 20  );
+// console.log(  "10" + true  );
+
+//Number
+
+// console.log( 10 + true ); // true - 1 , false - 0
+// console.log( 10 + false ); 
+// console.log( 10 + undefined ); // undefined -> NaN - Not A Number
+// console.log( 20 + null ); // null -> 0
+// console.log( 30 + {} ); //number + object ==== number -> string, object -> string
+// console.log( 30 + [] ); // number + array ==== number -> string, array -> string
+// console.log( 30 + [24,2,4,6] ); 
+
+// NaN + anything = Nan
+// anything + NaN = Nan
+// console.log( NaN + 10 );
+// console.log( typeof NaN );
+
+//Boolean
+
+// console.log( true + null ); // 1 + 0
+// console.log( true + [10] );
+// console.log( true + {} );
+// console.log( 3+5+(5+"5") );
+
+
+//Explicit Type Conversion - Manual
+
+// console.log( 10 + Number( "10" )  );
+// console.log( 10 + Number( "abc" )  );
+// console.log( 10 + Number( "" )  ); // 10 + 0
+// console.log( 10 + Number( true )  );
+
+// let $10 = 25; // undefined
+
+// console.log( $10 );
+
+// console.log( Number( {id:1} ) );
+// console.log( Number( {} ) );
+// console.log( Number( [$10] ) );
+
+
+// console.log( Boolean( " " )  );
+// console.log( Boolean( "" )  );
+// console.log( Boolean( "123" )  );
+// console.log( Boolean( 0+1 )  );
+// console.log( Boolean( -Infinity )  );
+// console.log( Boolean( null ) );
+// console.log( Boolean( undefined ) );
+// console.log( Boolean( {} ) );
+// console.log( Boolean( [1] ) );
+
+
+// console.log( typeof []  );
+// console.log( typeof null  );
+
+
+//----------------------------------------------------------------------
+
+
+// undefined vs undeclared variable or not define
+
+// let b; // undefined
+
+// let a = "abc";
+
+// console.log( a.filter() ); // Type Error 
+// console.log( c ); //Reference Error - not defined
+// // console.( b ) //Syntax Error
+
+//----------------------------------------------------------------------
