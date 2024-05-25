@@ -3,9 +3,11 @@
 
 //Conditional Statement
 
+
+
 //if statement
 
-// if(true){
+// if(false){
 //     console.log( 1);
 //     console.log( 1);
 //     console.log( 1);
@@ -30,7 +32,7 @@
 
 // let isWeekEnd = false
 
-// if( isWeekEnd == "" ){
+// if( isWeekEnd == true ){
 //     console.log( "Party"  );
 // }
 // else{
@@ -50,8 +52,14 @@
 // }
 
 
-// let hours = 25;
+// let hours = 23;
 
+// if(hours == 24){
+//     console.log( "Thongu Da" );
+// }
+// else{
+//     console.log( "Thongadha" );
+// }
 // if( hours>=6 && hours<=12 ){
 //     console.log( "Good Morning" );
 // }
@@ -80,7 +88,7 @@
 // }
 
 
-let trafficLight = "red"
+let trafficLight = "yellow"
 
 switch(trafficLight){
     case "red" : console.log( "Stop" );
@@ -92,6 +100,7 @@ switch(trafficLight){
     default : console.log( "Pay Fine" );
     break; //or return
 }
+
 
 
 
