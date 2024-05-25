@@ -90,3 +90,6 @@ function difBtwVariables() {
   difBtwVariables();
   
   console.log(num + num1 + num2);
+
+
+  
