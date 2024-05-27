@@ -18,17 +18,17 @@
 // let queryWithId = document.querySelector( "#p1" )
 // let queryWithClass = document.querySelector( ".p2" )
 
-// console.log( queryWithTag );
+// // console.log( queryWithTag );
+// let queryAllWithId = document.querySelectorAll( "#p1" )
 // console.log( queryWithId );
+// console.log( queryAllWithId );
 // console.log( queryWithClass );
 
 
 // let queryAllWithTag = document.querySelectorAll( "p" )
-// let queryAllWithId = document.querySelectorAll( "#p1" )
 // let queryAllWithClass = document.querySelectorAll( ".p2" )
 
 // console.log( queryAllWithTag );
-// console.log( queryAllWithId );
 // console.log( queryAllWithClass );
 
 ///////////////////////////////////////////////////////////
@@ -86,8 +86,6 @@
 //     div.prepend( "Sleep Time" )
 //     div.appendChild( ol ) //used to add element node...text node is not valid
 //     div.append( "ML",ol )
-
-    
 
 // }
 
